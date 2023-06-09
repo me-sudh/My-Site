@@ -1,0 +1,135 @@
+/* colour pallet that i am going to use for this site is 
+#A5F1E9
+#7FE9DE
+#FFF6BF
+#FFEBAD */
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    background-color: #A5F1E9;
+}
+p{
+    line-height: 2;
+}
+
+div {
+    /* background-color: #A5F1E9; */
+    margin-top: 0;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.65rem;
+    color: #66BFBF;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+}
+
+.top-container {
+    padding: 100px 0;
+    position: relative;
+    background-color: #A5F1E9;
+    /* background-image: url(nature.png); */
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    /* height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 10px; */
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.android {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+
+}
+
+.computer {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.middle-container {}
+
+.bottom-container {
+    background-color: #66BFBF;
+    margin-top: 70px;
+    margin-bottom: 0;
+    padding: 30px;
+}
+.copyright{
+    margin:0;
+    padding-top: 20px;
+    color: #EAF6F6;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: #11999E;
+    padding: 20px;
+}
+
+.bottom-container a:hover{
+    color: #eaf6f6;
+}
+.btn {
+    
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
